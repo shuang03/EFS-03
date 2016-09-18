@@ -76,4 +76,9 @@ class CustomerController extends Controller
         return response()->json($customer);
     }
 
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
 }

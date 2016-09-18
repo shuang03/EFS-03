@@ -71,4 +71,9 @@ class InvestmentController extends Controller
         Investment::find($id)->delete();
         return redirect('investments');
     }
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
 }

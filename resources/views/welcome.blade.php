@@ -28,7 +28,7 @@
 
         .content {
             text-align: center;
-            
+
             display: inline-block;
         }
 
@@ -42,8 +42,18 @@
     <div class="content">
         <div class="title">Eagle Financial Services</div>
     </div>
+
     <!div class="container">
     <a href="{{ action('CustomerController@index') }}">Begin Here</a>
+    <!-- Right Side Of Navbar -->
+    <ul class="nav navbar-nav navbar-right">
+        <!-- Authentication Links -->
+        <li><a href="login">Login</a></li>
+        <li><a href="register">Register</a></li>
+        <li><a href="logout"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
+    </ul>
+
+
 </div>
 </body>
 </html>
