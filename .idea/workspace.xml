@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0484c25e-fb65-4a0d-a219-956a945a1add" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2016_09_10_195331_create_investments_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_09_10_195331_create_investments_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/investments/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/investments/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/investments/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/investments/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/investments/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/investments/index.blade.php" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Investment.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Investment.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Investment.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/investments/create.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -56,10 +63,10 @@
         <option value="$PROJECT_DIR$/app/Post2.php" />
         <option value="$PROJECT_DIR$/resources/views/posts/show.blade.php" />
         <option value="$PROJECT_DIR$/app/Investment.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_09_10_195331_create_investments_table.php" />
         <option value="$PROJECT_DIR$/resources/views/investments/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/investments/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/investments/index.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_09_10_195331_create_investments_table.php" />
       </list>
     </option>
   </component>
@@ -197,12 +204,12 @@
       <workItem from="1467838397740" duration="599000" />
       <workItem from="1468191621197" duration="17000" />
       <workItem from="1472228949135" duration="7000" />
-      <workItem from="1473956747238" duration="7105000" />
+      <workItem from="1473956747238" duration="8091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40600000" />
+    <option name="totallyTimeSpent" value="41586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="735" extended-state="0" />
@@ -435,24 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_09_10_195331_create_investments_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <element signature="e#7#48#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/investments/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/investments/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -477,10 +466,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_09_10_195331_create_investments_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding>
+            <element signature="e#7#48#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Investment.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/investments/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding />
         </state>
       </provider>
