@@ -18,12 +18,15 @@
             display: table;
             font-weight: 100;
             font-family: 'Lato';
+            background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/17/The_Great_wall_-_by_Hao_Wei.jpg")
         }
 
         .container {
             text-align: center;
             display: table-cell;
             vertical-align: middle;
+            font-weight: 900;
+            font-family: "Times New Roman", Times, serif;
         }
 
         .content {
