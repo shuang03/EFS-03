@@ -1,6 +1,6 @@
 @extends('app')
 @section('content')
-    <h1>Create New investment</h1>
+    <h1>Create New Investment</h1>
     {!! Form::open(['url' => 'investments']) !!}
 
     <div class="form-group">
@@ -8,8 +8,8 @@
     </div>
 
     <div class="form-group">
-        {!! Form::label('catagory', 'Catagory:') !!}
-        {!! Form::text('catagory',null,['class'=>'form-control']) !!}
+        {!! Form::label('category', 'Category:') !!}
+        {!! Form::text('category',null,['class'=>'form-control']) !!}
     </div>
     <div class="form-group">
         {!! Form::label('description', 'Description:') !!}

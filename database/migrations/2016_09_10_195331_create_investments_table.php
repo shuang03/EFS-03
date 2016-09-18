@@ -14,7 +14,6 @@ class CreateInvestmentsTable extends Migration
     {
         Schema::create('investments', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('cust_name');
             $table->string('category');
             $table->string('description');
             $table->integer('acquired_value');

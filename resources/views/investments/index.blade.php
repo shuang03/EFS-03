@@ -23,7 +23,7 @@
             <tr>
                 <td>{{ $investment->customer->cust_number }}</td>
                 <td>{{ $investment->customer->name }}</td>
-                <td>{{ $investment->catagory }}</td>
+                <td>{{ $investment->category }}</td>
                 <td>{{ $investment->description }}</td>
                 <td>{{ $investment->acquired_value}}</td>
                 <td>{{ $investment->acquired_date }}</td>
