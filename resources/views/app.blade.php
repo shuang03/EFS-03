@@ -10,7 +10,8 @@
 <div class="container">
     <a href="{{ action('CustomerController@index') }}">Customers</a> |
     <a href="{{ action('StockController@index') }}">Stocks</a> |
-    <a href="{{ action('InvestmentController@index') }}">Investments</a>
+    <a href="{{ action('InvestmentController@index') }}">Investments</a> |
+    <a href="http://efs-.herokuapp.com/">Home</a>
 </div>
 <hr>
 <div class="container">
